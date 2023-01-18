@@ -1,7 +1,7 @@
 const http = require('http');
 const path = require('path');
 const fs = require('fs');
-const port = 8000;
+const port = 80;
 
 const server = http.createServer((req, res) => {
   const filePath = path.resolve(__dirname, './chat.html');
